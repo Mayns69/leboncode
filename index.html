@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeBonCode | Codes parrainage vérifiés, 80% de ma prime reversée</title>
+<meta name="description" content="Codes et liens de parrainage vérifiés chaque semaine : BoursoBank, TotalEnergies, iGraal, Vinted... Et je vous reverse 80% de ma prime.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--ink:#1c1b19;--mute:#6b675f;--line:#e6e1d6;--acc:#0f7b5f;--acc-soft:#e3f2ec;--hl:#f3b53f}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--card:#1e1d1a;--ink:#f1eee8;--mute:#a19c92;--line:#34322d;--acc:#3fc79c;--acc-soft:#17352c;--hl:#e0a531}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.top{padding:48px 0 24px}
+.logo{font-weight:800;font-size:15px;letter-spacing:.02em;color:var(--acc)}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:10px 0 12px;font-weight:800;letter-spacing:-.02em}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--hl) 62%)}
+.lead{color:var(--mute);max-width:640px;margin:0 0 20px;font-size:17px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:0;padding:0;list-style:none}
+.stats li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px}
+.stats b{color:var(--acc)}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:28px 0}
+.how div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.how b{display:block;margin-bottom:4px}
+.how span{color:var(--mute);font-size:14px}
+.bar{position:sticky;top:0;z-index:2;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line)}
+.bar input{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;margin-bottom:10px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;padding:20px 0 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:6px;scroll-margin-top:130px}
+.card.featured{border-color:var(--acc)}
+.card:target{box-shadow:0 0 0 3px var(--hl)}
+.card header{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card h3{margin:0;font-size:17px}
+.badge{background:var(--acc-soft);color:var(--acc);font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.bonus{font-size:26px;font-weight:800;margin:4px 0 0;letter-spacing:-.01em}
+.detail{margin:0;font-size:14px}
+.cond{margin:0;font-size:13px;color:var(--mute)}
+.cond span{font-weight:600}
+.code{display:flex;margin-top:8px;border:1px dashed var(--line);border-radius:10px;overflow:hidden}
+.code code{flex:1;padding:9px 12px;font:600 14px ui-monospace,SFMono-Regular,Menlo,monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.copy{border:0;border-left:1px dashed var(--line);background:transparent;color:var(--acc);font:600 14px Inter,sans-serif;padding:0 14px;cursor:pointer}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px;align-items:center}
+.btn{flex:1 1 auto;text-align:center;text-decoration:none;font-weight:600;font-size:14px;border-radius:10px;padding:9px 12px;white-space:nowrap}
+.btn.primary{background:var(--acc);color:#fff}
+.btn.ghost{color:var(--acc);border:1px solid var(--acc)}
+.hint{font-size:13px;color:var(--mute)}
+.empty{display:none;color:var(--mute);padding:30px 0}
+footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--mute);font-size:13px}
+footer p{max-width:760px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="top">
+    <div class="logo">LeBonCode</div>
+    <h1>Mes codes parrainage vérifiés, et <em>80% de ma prime</em> pour vous.</h1>
+    <p class="lead">Chaque code est testé toutes les semaines et aligné sur l'offre officielle. En plus de l'avantage de bienvenue, je vous reverse 80% de la prime que je reçois.</p>
+    <ul class="stats"><li><b id="n">27</b> offres</li><li><b id="np">22</b> avec reversement</li><li>Vérifié le <b id="dt">23/09/2026</b></li></ul>
+  </section>
+  <section class="how" aria-label="Comment ça marche">
+    <div><b>1. Inscrivez-vous</b><span>Via le lien ou avec le code de l'offre qui vous intéresse.</span></div>
+    <div><b>2. Remplissez la condition</b><span>Premier achat, versement ou souscription, comme indiqué sur la carte.</span></div>
+    <div><b>3. Recevez vos 80%</b><span>Une fois ma prime versée, écrivez-moi via « Réclamer mes 80% » : virement, PayPal ou Lydia.</span></div>
+  </section>
+</div>
+<div class="bar"><div class="wrap">
+  <input id="q" type="search" placeholder="Rechercher une marque (ex. Bourso, Vinted...)" aria-label="Rechercher une offre">
+  <div class="chips" id="chips" role="toolbar" aria-label="Catégories"></div>
+</div></div>
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty">Aucune offre ne correspond à votre recherche.</p>
+</main>
+<footer><div class="wrap">
+  <p>Liens de parrainage et d'affiliation : je reçois une prime quand vous vous inscrivez ou achetez via ces liens, sans surcoût pour vous. Les montants sont ceux des programmes officiels à la date de vérification et peuvent changer.</p>
+  <p>Reversement de 80% : versé après réception effective de ma prime par la marque, sur demande via la messagerie Super Parrain. Offres sans badge : prime en points ou affiliation, pas de reversement. Certains programmes limitent le nombre de filleuls par an.</p>
+  <p>LeBonCode n'est affilié à aucune des marques citées.</p>
+</div></footer>
+<script>
+(function(){
+  var SP='https://www.super-parrain.com/messagerie/mayns/';
+  function e(s){return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function card(o,r){
+    var claim=SP+o.sp.split('/')[1];
+    var h='<article class="card'+(o.featured?' featured':'')+'" id="'+e(o.id)+'" data-cat="'+e(o.cat)+'" data-search="'+e((o.name+' '+o.cat+' '+o.detail).toLowerCase())+'">';
+    h+='<header><h3>'+e(o.name)+'</h3>'+(o.payback?'<span class="badge">'+r+'% reversés</span>':'')+'</header>';
+    h+='<p class="bonus">'+e(o.bonus)+'</p><p class="detail">'+e(o.detail)+'</p><p class="cond"><span>Condition</span> '+e(o.cond)+'</p>';
+    h+='<div class="code"><code>'+e(o.code)+'</code><button type="button" class="copy" data-code="'+e(o.code)+'" aria-label="Copier le code '+e(o.name)+'">Copier</button></div>';
+    h+='<div class="actions">'+(o.url?'<a class="btn primary" href="'+e(o.url)+'" target="_blank" rel="sponsored noopener">Ouvrir l&#39;offre</a>':'<span class="hint">Code à saisir sur le site ou dans l&#39;appli</span>');
+    h+=(o.payback?'<a class="btn ghost" href="'+claim+'" target="_blank" rel="noopener">Réclamer mes '+r+'%</a>':'')+'</div></article>';
+    return h;
+  }
+  fetch('registry.json',{cache:'no-cache'}).then(function(res){return res.json();}).then(function(d){
+    var offers=d.offers,cats=[],r=d.payback_rate,p=d.checked.split('-');
+    offers.forEach(function(o){if(cats.indexOf(o.cat)<0)cats.push(o.cat);});
+    document.getElementById('n').textContent=offers.length;
+    document.getElementById('np').textContent=offers.filter(function(o){return o.payback;}).length;
+    document.getElementById('dt').textContent=p[2]+'/'+p[1]+'/'+p[0];
+    document.getElementById('chips').innerHTML='<button class="chip on" data-f="all">Toutes</button>'+cats.map(function(c){return '<button class="chip" data-f="'+e(c)+'">'+e(c)+'</button>';}).join('');
+    document.getElementById('grid').innerHTML=offers.map(function(o){return card(o,r);}).join('');
+    init();
+    if(location.hash){var t=document.getElementById(location.hash.slice(1));if(t)t.scrollIntoView();}
+  });
+  function init(){
+    var q=document.getElementById('q'),cards=[].slice.call(document.querySelectorAll('.card')),chips=[].slice.call(document.querySelectorAll('.chip')),empty=document.getElementById('empty'),f='all';
+    function apply(){var t=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var ok=(f==='all'||c.dataset.cat===f)&&(!t||c.dataset.search.indexOf(t)>-1);c.style.display=ok?'':'none';if(ok)n++;});empty.style.display=n?'none':'block';}
+    q.addEventListener('input',apply);
+    chips.forEach(function(b){b.addEventListener('click',function(){chips.forEach(function(x){x.classList.remove('on');});b.classList.add('on');f=b.dataset.f;apply();});});
+  }
+  document.addEventListener('click',function(ev){var b=ev.target.closest('.copy');if(!b)return;var done=function(){b.textContent='Copié';setTimeout(function(){b.textContent='Copier';},1500);};
+    if(navigator.clipboard){navigator.clipboard.writeText(b.dataset.code).then(done,done);}else{var rg=document.createRange();rg.selectNodeContents(b.previousElementSibling);var s=getSelection();s.removeAllRanges();s.addRange(rg);document.execCommand('copy');done();}});
+})();
+</script>
+</body>
+</html>
